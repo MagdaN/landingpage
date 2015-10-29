@@ -83,7 +83,7 @@
 	a {
 		@include vendor('transition', ('color 0.2s ease-in-out', 'border-bottom-color 0.2s ease-in-out'));
 		border-bottom: dotted 1px;
-		color: _palette(accent1, bg);
+		color: _palette(accent4, bg);
 		text-decoration: none;
 
 		&:hover {
@@ -295,7 +295,7 @@
 
 		&:focus {
 			background: _palette(border-bg);
-			border-color: _palette(accent1, bg);
+			border-color: _palette(accent4, bg);
 		}
 	}
 
@@ -757,7 +757,7 @@
 
 			&:hover {
 				border-bottom-color: transparent;
-				color: _palette(accent1, bg);
+				color: _palette(accent4, bg);
 			}
 		}
 
@@ -778,9 +778,9 @@
 		}
 
 		.logo {
-			background: _palette(accent1, bg);
+			background: _palette(accent4, bg);
 			border-radius: 100%;
-			color: _palette(accent1, fg-bold);
+			color: _palette(accent4, fg-bold);
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
@@ -812,12 +812,12 @@
 
 	#footer {
 		background-attachment:		scroll;
-		background-color:			_palette(accent1, bg);
+		background-color:			_palette(accent4, bg);
 		background-image:			url('images/bottom-3200.svg');
 		background-position:		top center;
 		background-repeat:			repeat-x;
 		background-size:			3200px 460px;
-		color: _palette(accent1, fg);
+		color: _palette(accent4, fg);
 
 		/*
 			Since the SVG background occupies a lot of vertical space, we'll
@@ -842,20 +842,20 @@
 		}
 
 		a {
-			color: _palette(accent1, fg-bold);
+			color: _palette(accent4, fg-bold);
 		}
 
 		strong, b {
-			color: _palette(accent1, fg-bold);
+			color: _palette(accent4, fg-bold);
 		}
 
 		h1, h2, h3, h4, h5, h6 {
-			color: _palette(accent1, fg-bold);
+			color: _palette(accent4, fg-bold);
 		}
 
 		header {
 			p {
-				color: _palette(accent1, fg-light);
+				color: _palette(accent4, fg-light);
 			}
 		}
 
@@ -863,13 +863,13 @@
 		input[type="reset"],
 		input[type="button"],
 		.button {
-			background: _palette(accent1, fg-bold);
-			box-shadow: inset 0 0 0 1px _palette(accent1, fg-bold);
-			color: _palette(accent1, bg);
+			background: _palette(accent4, fg-bold);
+			box-shadow: inset 0 0 0 1px _palette(accent4, fg-bold);
+			color: _palette(accent4, bg);
 
 			&:hover {
 				background: _palette(border-bg);
-				color: _palette(accent1, fg-bold);
+				color: _palette(accent4, fg-bold);
 			}
 		}
 
@@ -879,12 +879,12 @@
 		select,
 		textarea {
 			&:focus {
-				border-color: _palette(accent1, fg-bold);
+				border-color: _palette(accent4, fg-bold);
 			}
 		}
 
 		.formerize-placeholder {
-			color: transparentize(_palette(accent1, fg), 0.5) !important;
+			color: transparentize(_palette(accent4, fg), 0.5) !important;
 		}
 
 		form {
@@ -892,7 +892,7 @@
 		}
 
 		.copyright {
-			color: _palette(accent1, fg-light);
+			color: _palette(accent4, fg-light);
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 3em 0 0 0;
@@ -913,7 +913,7 @@
 					color: inherit;
 
 					&:hover {
-						color: _palette(accent1, fg-bold);
+						color: _palette(accent4, fg-bold);
 					}
 				}
 			}
