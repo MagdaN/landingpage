@@ -745,11 +745,11 @@
 /* Header */
 
 	#header {
-		background-attachment:		scroll,							scroll,					fixed;
-		background-image:			url('images/top-3200.svg'),		url('images/overlay.png'),		url('../../images/header.jpg');
-		background-position:		bottom center,					top left,				center center;
-		background-repeat:			repeat-x,						repeat,					no-repeat;
-		background-size:			3200px 460px,					auto,					cover;
+		background-attachment:		scroll;
+		background-image:			url('images/top-3200.svg');
+		background-position:		bottom center;
+		background-repeat:			repeat-x;
+		background-size:			3200px 460px;
 		color: _palette(accent2, fg);
 		padding: 10em 0 20em 0;
 		position: relative;
@@ -775,6 +775,22 @@
 			bottom: 0;
 			height: 50px;
 		}
+		video{
+			position: fixed;
+		    top: 50%;
+		    left: 50%;
+		    min-width: 100%;
+		    min-height: 50%;
+		    width: auto;
+		    height: auto;
+		    z-index: -100;
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+		    transform: translateX(-50%) translateY(-50%);
+		    background: url(../../videos/Rolling-horse.jpg) no-repeat;
+		    background-size: cover; 
+		    display: inline-block;
+		}
+
 
 		a {
 			border-bottom-color: _palette(accent2, fg-light);
@@ -951,6 +967,7 @@
 		padding: 6em 0 5em 0;
 		position: relative;
 		z-index: 1;
+		background-color:_palette(bg);
 
 		&:before {
 			background: _palette(border);
@@ -967,6 +984,7 @@
 		footer.major {
 			background: _palette(bg);
 		}
+
 	}
 
 /* Wide */
@@ -1072,9 +1090,9 @@
 		/* Header */
 
 			#header {
-				background-attachment:		scroll,							scroll,							scroll;
-				background-image:			url('images/top-1600.svg'),		url('images/overlay.png'),		url('../../images/header.jpg');
-				background-size:			1600px 230px,					auto,							cover;
+				background-attachment:		scroll;
+				background-image:			url('images/top-1600.svg');
+				background-size:			1600px 230px;
 				padding: 6em 0 12em 0;
 
 				&:before {
