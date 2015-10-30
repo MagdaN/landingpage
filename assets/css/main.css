@@ -1666,6 +1666,28 @@ textarea {
 span.image.icon {
   cursor: default; }
 
+/* Profile Images */
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background-size: 200px;
+  padding-top: 150px;
+  display: inline-block;
+  margin-right: 3vh;
+  margin-bottom: 1em; }
+
+.profile_img p {
+  background-color: #fff;
+  margin-bottom: 1em;
+  opacity: 0.88;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; }
+
 /* Icon */
 .icon {
   text-decoration: none;
