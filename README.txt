@@ -4,7 +4,7 @@ Landingpage of byCoKit
 Credits:
 
 	Images:
-		Unsplash (unsplash.com)
+		
 		
 	Videos:
 		BMC (CCEC, Freie Universität Berlin)
