@@ -1514,7 +1514,8 @@ footer {
     border-top-width: 1px;
     margin-top: 6em;
     padding: 4em 0;
-    position: relative; }
+    position: relative;
+    z-index: 2; }
     footer.major:before, footer.major:after {
       background: rgba(224, 224, 224, 0.75);
       content: '';
