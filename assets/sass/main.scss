@@ -238,7 +238,6 @@
 			margin-top: 6em;
 			padding: 4em 0;
 			position: relative;
-			z-index: 2;
 
 			&:before,
 			&:after {
@@ -859,6 +858,7 @@
 		background-repeat:			repeat-x;
 		background-size:			3200px 460px;
 		color: _palette(accent4, fg);
+		z-index: 10;
 
 		/*
 			Since the SVG background occupies a lot of vertical space, we'll

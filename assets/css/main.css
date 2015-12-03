@@ -1514,8 +1514,7 @@ footer {
     border-top-width: 1px;
     margin-top: 6em;
     padding: 4em 0;
-    position: relative;
-    z-index: 2; }
+    position: relative; }
     footer.major:before, footer.major:after {
       background: rgba(224, 224, 224, 0.75);
       content: '';
@@ -2002,6 +2001,7 @@ input[type="button"],
   background-repeat: repeat-x;
   background-size: 3200px 460px;
   color: rgba(44, 85, 115, 0.8);
+  z-index: 10;
   /*
   	Since the SVG background occupies a lot of vertical space, we'll
   	add additional top padding (to move our content out of its way)
