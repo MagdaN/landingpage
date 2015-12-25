@@ -584,7 +584,7 @@
 	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', ('color 0.2s ease-in-out', 'background-color 0.2s ease-in-out'));
-		background: _palette(accent2, bg);
+		background: _palette(accent3, bg);
 		border-radius: _size(border-radius);
 		border: 0;
 		color: _palette(accent2, fg-bold);
@@ -863,7 +863,7 @@
 			add additional top padding (to move our content out of its way)
 			and a negative margin (to move everything up a bit).
 		*/
-		margin-top: -260px;
+		margin-top: -60px;
 		padding: calc(460px + 6em) 0 10em 0;
 
 		position: relative;
