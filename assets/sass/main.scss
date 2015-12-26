@@ -344,16 +344,19 @@
 
 		&:after {
 			@include vendor('transition', 'opacity 0.25s ease-in-out');
-			background-image: url('images/overlay.png');
+			background-size:100%;
+			background-repeat:no-repeat;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.2;
+			opacity: 0.05;
 			position: absolute;
 			top: 0;
 			width: 100%;
 		}
+
+		
 
 		img {
 			display: block;
@@ -643,6 +646,31 @@
 			background: none;
 			border: none;
 			padding: 0;
+		}
+
+		/* Background images for each phase*/
+		&:nth-child(2){
+			.feature :after{
+				background-image: url('../../images/bg_inspire-hover.jpg');
+			}
+		}
+
+		&:nth-child(3){
+			.feature :after{
+				background-image: url('../../images/bg_draft-hover.jpg');
+			}
+		}
+
+		&:nth-child(4){
+			.feature :after{
+				background-image: url('../../images/bg_execute-hover.jpg');
+			}
+		}
+
+		&:nth-child(5){
+			.feature :after{
+				background-image: url('../../images/bg_refine-hover.jpg');
+			}
 		}
 	}
 

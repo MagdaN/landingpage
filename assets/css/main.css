@@ -1608,12 +1608,13 @@ textarea {
     -webkit-transition: opacity 0.25s ease-in-out;
     -ms-transition: opacity 0.25s ease-in-out;
     transition: opacity 0.25s ease-in-out;
-    background-image: url("images/overlay.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     content: '';
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.05;
     position: absolute;
     top: 0;
     width: 100%; }
@@ -1848,11 +1849,20 @@ input[type="button"],
   background: #ffffff;
   border: solid 1px rgba(224, 224, 224, 0.75);
   margin-bottom: 6em;
-  padding: 3.5em; }
+  padding: 3.5em;
+  /* Background images for each phase*/ }
   .box.alt {
     background: none;
     border: none;
     padding: 0; }
+  .box:nth-child(2) .feature :after {
+    background-image: url("../../images/bg_inspire-hover.jpg"); }
+  .box:nth-child(3) .feature :after {
+    background-image: url("../../images/bg_draft-hover.jpg"); }
+  .box:nth-child(4) .feature :after {
+    background-image: url("../../images/bg_execute-hover.jpg"); }
+  .box:nth-child(5) .feature :after {
+    background-image: url("../../images/bg_refine-hover.jpg"); }
 
 /* Feature */
 .feature {
